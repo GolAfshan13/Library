@@ -1,0 +1,93 @@
+
+body {
+    background: radial-gradient( #eee, #999);
+    background-size: cover ;
+}
+textarea {
+    resize: none ;
+}
+
+#row1 {
+    display: inline-block ;
+    margin: 40px 20px ;
+}
+
+#ISBN, #bookName, #englishName {
+    margin:0 30px ;
+}
+
+#row2 {
+    display: inline-block;
+    margin: 40px 20px ;
+}
+
+#writer, #englishWriter, #translator {
+    margin:0 30px ;
+}
+
+#row3 {
+    display: inline-block;
+    margin: 40px 20px ;
+}
+
+#subject2 , #margin3{
+    margin : 0 30px ;
+}
+
+#publicSpecification , #PS{
+    float: left;
+}
+#PS {
+    margin:60px 20px ;
+}
+
+#pageNumber {
+    width: 70px ;
+    margin : 20px 0 ;
+}
+
+#PN {
+    margin : 20px 10px 20px 100px ;
+}
+
+#publisher {
+    margin: 20px 0 ;
+}
+#P{
+    margin: 20px 10px 20px 115px ;
+}
+
+#footer {
+    position: relative;
+    top:70px ;
+}
+
+#submit{
+    position: absolute;
+    padding: 6px 34px ;
+    background : linear-gradient(to top,  rgb(12, 236, 12), green);
+    border-color: rgb(3, 105, 3) ;
+    margin : 0 100px 0 10px ;
+    text-align: center ;
+    left:190px;
+    
+}
+
+#submit:hover {
+    box-shadow: 0 0 2px 2px green ;
+    cursor: pointer;
+}
+
+#cancel {
+    position: absolute;
+    padding: 6px 34px ;
+    background:linear-gradient(to top, rgb(240, 114, 114) , rgb(255, 0, 0)) ;
+    border-color: red ;
+    text-align: center ;
+    left: 100px ;
+}
+
+#cancel:hover  {
+    box-shadow: 0 0 2px 2px red ;
+    cursor: pointer;
+}

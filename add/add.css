@@ -1,0 +1,113 @@
+* {
+    font-size: 15px;
+}
+
+body {
+    background: radial-gradient( #eee, #999);
+    background-size: cover ;
+}
+
+
+form {
+    text-align: right;
+    margin-top: 50px;
+}
+
+
+.row {
+    display: block;
+    margin: 50px 10px  ;
+    left: 5px;
+}
+
+.text {
+    border-bottom: solid 1px #999 ;
+    text-align: center;
+    margin-right: 50px ;
+    box-shadow: -1px 2px ;
+}
+
+label {
+    margin-right: 30px;
+}
+
+
+#marry {
+    margin-right : 25px;
+}
+
+#mMarry {
+    margin-right : 50px ;
+}
+
+
+
+#age {
+    width: 55px ;
+}
+
+#personel .row{
+    margin-top: -10px ;    
+}
+#personel #pName {
+    float: left;
+    margin-left :45px ;
+}
+#pHome {
+    float: left;
+    margin-left : 0 ;
+}
+#pNN {
+    float: left;
+    margin-left: 6px ;
+}
+#pAge {
+    margin-right : 130px ;
+}
+
+#pSalary {
+    position: relative;
+    left : -200px
+}
+
+#pMarry {
+    position: relative;
+    left : -230px
+}
+
+#mSubmit , #pSubmit{
+    padding: 6px 34px ;
+    background : linear-gradient(to top,  rgb(12, 236, 12), green);
+    border-color: rgb(3, 105, 3) ;
+    text-align: center ;
+    float: right;
+    margin : 0 100px 0 10px ;
+    text-align: center ;
+}
+
+#pSubmit {
+    margin: 0 270px 0 15px  ;
+}
+
+#mSubmit:hover, #pSubmit:hover {
+    box-shadow: 0 0 2px 2px green ;
+    cursor: pointer;
+}
+
+#mCancel , #pCancel{
+    padding: 6px 34px ;
+    background:linear-gradient(to top, rgb(240, 114, 114) , rgb(255, 0, 0)) ;
+    border-color: red ;
+    text-align: center ;
+    float: right;
+}
+
+#mCancel:hover ,#pCancel:hover {
+    box-shadow: 0 0 2px 2px red ;
+    cursor: pointer;
+}
+
+.book #books {
+    margin: 0 ;
+    padding: 0 ;
+}
