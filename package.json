@@ -1,0 +1,19 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "\"# Library\"",
+  "main": "index.js",
+  "scripts": {
+	  "electron":"electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GolAfshan13/Library.git"
+  },
+  "author": "A.R.G.13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GolAfshan13/Library/issues"
+  },
+  "homepage": "https://github.com/GolAfshan13/Library#readme"
+}
