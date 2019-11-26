@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+
+    <head>
+        <title>
+            لیست کتاب ها
+        </title>
+        <link rel="stylesheet" href="lists.css">
+    </head>
+
+    <body >
+        <header>
+            <button id='refresh'> رفرش</button>
+            <select id="bSearchType">
+                <option value="ISBN">شابک</option>
+                <option value="bName">نام کتاب</option>
+                <option value="bWriter">نویسنده</option>
+            </select>
+            <input type="search" id="bSearch">
+            <button id='bSearchButton'> جست و جو </button>
+        </header>
+
+        <article id='bookLists'>
+
+            <table id='display-table'>
+    
+                <th id='table-row'>
+                    <td>شابک</td>
+                    <td>نام کتاب</td>
+                    <td>book name</td>
+                    <td>نویسنده</td>
+                    <td>writer</td>
+                    <td>مترجم</td>
+                    <td>مشخصات نشر</td>
+                    <td>تعداد صفحات</td>
+                    <td>ناشر</td>
+                    <td>موضوع</td>
+                    <td>موضوع</td>
+                    <td>موضوع</td>
+                    <td>تعداد</td>
+                </th>
+    
+                <tr class="tr">
+                    <td>1</td>
+                    <td class="ISBN">9876543210133</td>
+                    <td>504 واژه ی کاملا ضروری</td>
+                    <td>504 absolutely essential words</td>
+                    <td>عبدالله قنبری</td>
+                    <td></td>
+                    <td></td>
+                    <td> تهران : جنگل، جاودانه ، 1391 </td>
+                    <td>372</td>
+                    <td>جنگل</td>
+                    <td>زبان انگلیسی</td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr class="tr">
+                    <td>2</td>
+                    <td class="ISBN">1234567891011</td>
+                    <td>غرور و تعصب</td>
+                    <td>pride and prejudice</td>
+                    <td>جین آستین</td>
+                    <td>jane austin</td>
+                    <td>اعظم ضامن پور</td>
+                    <td> تهران </td>
+                    <td>533</td>
+                    <td>نیک فرجام</td>
+                    <td>داستان های انگلیسی</td>
+                    <td>رمان انگلیسی</td>
+                    <td>درام انگلیسی</td>
+                    <td>2</td>
+                </tr>
+    
+            </table>
+        </article>
+
+    </body>
+    <script src="main.js"></script>
+    <script>
+    </script>
+</html>
