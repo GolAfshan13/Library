@@ -1,0 +1,29 @@
+body {
+    background-color: #ddd ;
+    /* overflow-x: auto ; */
+}
+
+td{
+    border: solid 1px black ;
+    text-align: center ;
+}
+
+td:hover {
+    cursor: default;
+}
+
+header {
+    text-align: right ;
+    margin : 3px 5px 10px ;
+}
+#refresh {
+    margin : 0 10px ;
+}
+
+.tr:hover {
+    background-color: lightgoldenrodyellow ;
+}
+
+/* #table-row:hover {
+    background-color: #ddd ;
+} */

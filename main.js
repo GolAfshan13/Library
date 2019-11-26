@@ -7,7 +7,7 @@ document.getElementById('books').addEventListener('click',()=>{
     document.querySelector('article').innerHTML=    
     `
     <link rel="stylesheet" href="index.css">
-    <iframe src="bookList.htm" width="970" height="420"> </iframe>
+    <iframe src="lists/bookList.htm" width="970" height="420"> </iframe>
     <div id='footers'>
     <button class='footer-button-books' disabled='true' id='editBooks'> ویرایش کردن  </button>
     <button class='footer-button-books' disabled='true' id='deleteBooks'> حذف کردن </button>
@@ -27,7 +27,7 @@ document.getElementById('personel').addEventListener('click',()=>{
     document.querySelector('article').innerHTML=    
     `
     <link rel="stylesheet" href="index.css">
-    <iframe src="personelList.htm" width="970" height="420"> </iframe>
+    <iframe src="lists/personelList.htm" width="970" height="420"> </iframe>
     <div id='footers'>
     <button class='footer-button-personel' disabled='true' id='editPersonel'> ویرایش کردن  </button>
     <button class='footer-button-personel' disabled='true' id='deletePersonel'> حذف کردن </button>
@@ -47,7 +47,7 @@ document.getElementById('member').addEventListener('click',()=>{
     document.querySelector('article').innerHTML =
     `
     <link rel="stylesheet" href="index.css">
-    <iframe src="memberList.htm" width="970" height="420"> </iframe>
+    <iframe src="lists/memberList.htm" width="970" height="420"> </iframe>
     <div id='footers'>
     <button class='footer-button-member' disabled='true' id='editMember'> ویرایش کردن  </button>
     <button class='footer-button-member' disabled='true' id='deleteMember'> حذف کردن </button>
